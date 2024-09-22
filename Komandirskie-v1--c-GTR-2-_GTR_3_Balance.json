@@ -1,0 +1,418 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Balance",
+    "WatchFaceId": 4133290,
+    "Preview": "0002"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "0001"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 410,
+          "y": 180,
+          "src": "0035",
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 82,
+          "y": 185,
+          "src": "0033",
+          "type": "Bluetooth"
+        },
+        "DND": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 409,
+          "y": 270,
+          "src": "0036",
+          "type": "DND"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 334,
+          "Y": 224,
+          "img_First": "0016",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 406,
+          "imageY": 224,
+          "space": 0,
+          "zero": true,
+          "img_First": "0006",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 215,
+          "imageY": 393,
+          "space": 0,
+          "zero": false,
+          "img_First": "0023",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Pointer": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "src": "0037",
+          "center_x": 240,
+          "center_y": 350,
+          "pos_x": 12,
+          "pos_y": 77,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0005",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 13,
+          "pos_y": 227,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0004",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 15,
+          "pos_y": 215,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0003",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 13,
+          "pos_y": 147,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONAL_AOD",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "0001"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "x": 410,
+          "y": 180,
+          "src": "0035",
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "x": 82,
+          "y": 185,
+          "src": "0033",
+          "type": "Bluetooth"
+        },
+        "DND": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "x": 409,
+          "y": 270,
+          "src": "0036",
+          "type": "DND"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONAL_AOD",
+          "X": 334,
+          "Y": 224,
+          "img_First": "0016",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONAL_AOD",
+          "imageX": 406,
+          "imageY": 224,
+          "space": 0,
+          "zero": true,
+          "img_First": "0006",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 215,
+          "imageY": 393,
+          "space": 0,
+          "zero": false,
+          "img_First": "0023",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Pointer": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "src": "0037",
+          "center_x": 240,
+          "center_y": 350,
+          "pos_x": 12,
+          "pos_y": 77,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0005",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 13,
+          "pos_y": 227,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0004",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 15,
+          "pos_y": 215,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "src": "0003",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 13,
+          "pos_y": 147,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": 5,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 200,
+      "y": 311,
+      "w": 75,
+      "h": 70,
+      "src": "0038",
+      "type": "STEP"
+    },
+    "Weather": {
+      "position": 4,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 321,
+      "y": 209,
+      "w": 70,
+      "h": 60,
+      "src": "0038",
+      "type": "WEATHER_CURRENT"
+    },
+    "Alarm": {
+      "position": 3,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 398,
+      "y": 209,
+      "w": 64,
+      "h": 66,
+      "src": "0038",
+      "type": "ALARM_CLOCK"
+    },
+    "Countdown": {
+      "position": 2,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 47,
+      "y": 115,
+      "w": 73,
+      "h": 63,
+      "src": "0038",
+      "type": "COUNT_DOWN"
+    },
+    "Stopwatch": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 22,
+      "y": 209,
+      "w": 72,
+      "h": 64,
+      "src": "0038",
+      "type": "STOP_WATCH"
+    }
+  }
+}
